@@ -6,6 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tomerb3/clawders/pulls)
 
+![openclaw_info1](https://devopsite.top/openclaw_info1.jpeg)
 ![Clawders Banner](https://devopsite.top/github-pic1-openclaw.jpeg)
 
 ---
