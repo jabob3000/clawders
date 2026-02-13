@@ -1,0 +1,9 @@
+docker stop claude-code-go-proxy 
+docker rm claude-code-go-proxy 
+
+docker run -d --name claude-code-go-proxy \
+  -p 3001:3001 \
+  -e ADDR=":3001" \
+  -e CONFIG_PATH="/app/config.json" \
+  -v "$PWD/config.json:/app/config.json:ro" \
+  claude-code-go-proxy
